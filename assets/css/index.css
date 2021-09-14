@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Rubik', sans-serif;
+  color: rgb(26, 31, 82);
+}
+
+a{
+  text-decoration: none;
+}
+
+/* LANDING PAGE */
+.banner{
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.banner img{
+  margin-top: 153px;
+  width: 100%;
+  height: auto;
+}
+
+/* INTRODUCTION */
+.intro{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.intro h2{
+  font-weight: 400;
+}
+
+.intro img{
+  width: 150px;
+}
+
+.intro p{
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 0 10px;
+}
+
+/* INFO SECTION STYLES */
+.section-a{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  /*max-width: 1500px;*/
+  margin: 0 auto;
+}
+
+.section-a-info h3{
+  font-weight: 400;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+.section-a-info p{
+  padding: 0 15px;
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 12px;
+}
+
+/* INFO SECTION IMAGE STYLES */
+.sect-a-img{
+  display: flex;
+}
+
+.sect-a-img img{
+  width: 100%;
+  height: auto;
+}
+
+.yel-bg-graphic{
+  background: url('https://www.dropbox.com/s/urrj208felaf8j3/yellow-bg-img.png?raw=1') no-repeat center center fixed;
+  background-size: cover;
+}

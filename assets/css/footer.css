@@ -1,0 +1,48 @@
+footer{
+	background-color: rgb(255, 255, 255);
+	width: 100%;
+	height: auto;
+	color: rgb(26, 31, 82);
+	border-top: 7px solid rgb(255, 205, 0);
+}
+
+.contact-sect{
+	position: relative;
+	margin: 0 auto;
+}
+
+.contact-sect h1, .contact-sect p{
+	padding: 0 10px;
+}
+
+.contact-sect p{
+	font-size: 20px;
+}
+
+.contact-link{
+	margin-bottom: 5px;
+}
+
+.contact-link a{
+	color: inherit;
+}
+
+.contact-link a:hover{
+	text-decoration: underline;
+}
+
+.view-map-lnk{
+	color: inherit;
+}
+
+.em{
+	font-weight: 400;
+}
+
+.em:hover{
+	text-decoration: underline;
+}
+
+.icon a{
+	font-size: 65px;
+}

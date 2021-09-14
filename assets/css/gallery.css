@@ -1,0 +1,18 @@
+.gallery-container{
+	padding-top: 154px;
+}
+
+.gallery-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img-column {
+  flex: 100%;
+  max-width: 100%;
+}
+
+.img-column img {
+  vertical-align: middle;
+  width: 100%;
+}

@@ -1,0 +1,13 @@
+.map{
+	padding-top: 154px;
+	display: flex;
+	flex-direction: column;
+}
+
+.say-hello{
+	text-align: center;
+}
+
+.chev-icon{
+	font-size: 35px;
+}
