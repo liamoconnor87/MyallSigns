@@ -4,33 +4,44 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-	<script src="https://kit.fontawesome.com/fd5b45d410.js" crossorigin="anonymous"></script>
-
+  <!-- CSS STYLES -->
 	<link rel="stylesheet" type="text/css" href="assets/css/index.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/navbar.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/footer.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/colour_presets.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/smart_devices.css">
 
+  <!-- CSS - JS SCRIPTS -->
+  <link rel="stylesheet" type="text/css" href="assets/css/JS_animations.css">
+
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- FONT AWESOME -->
+  <script src="https://kit.fontawesome.com/fd5b45d410.js" crossorigin="anonymous"></script>
+
+  <!-- JQUERY CDN -->
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
 	<title>Myall Signs</title>
 </head>
-<body>
+
+<body class="fade-in">
 
 	<!-- NAVIGATION BAR -->
     <nav class="navbar">
 
-     	<a href="index.html">
+     	<a class="index-page pointer">
     		<img class="logo" src="assets/img/myall-logo.png" alt="Myall Signs Logo">
     	</a>
 
     	<div class="nav-menu">
     		<div class="nav-link-cont white">
-	    		<div class="nav-link"><a href="index.html" class="link-1">Home</a></div>
-	    		<div class="nav-link"><a href="contact.html" class="link-2">Contact</a></div>
-	    		<div class="nav-link"><a href="gallery.html" class="link-3">Gallery</a></div>
+	    		<div class="nav-link"><a class="index-page link-1 pointer">Home</a></div>
+	    		<div class="nav-link"><a class="contact-page link-2 pointer">Contact</a></div>
+	    		<div class="nav-link"><a  class="gallery-page link-3 pointer">Gallery</a></div>
     		</div>
     	</div>
 
@@ -123,7 +134,7 @@
     			SS1 2TH
     			<br>
     			<br>
-    			<a class="view-map-lnk" href="contact.html"><em class="em">> View Map</em></a>
+    			<a class="view-map-lnk contact-page pointer"><em class="em">> View Map</em></a>
     		</p>
     		<br>
     		<p class="contact-link icon">
@@ -142,5 +153,9 @@
     	</div>
     </footer>
 
+  <!-- JS SCRIPTS -->
+  <script src="assets/scripts/animations.js"></script>
+
 </body>
+
 </html>
