@@ -16,3 +16,26 @@
   vertical-align: middle;
   width: 100%;
 }
+
+/* SMART DEVICES  */
+@media screen and (min-width: 500px){
+
+  .img-column {
+    flex: 50%;
+    max-width: 50%;
+  }
+
+}
+
+@media screen and (min-width:  1500px){
+
+  .gallery-container{
+    padding-top: 194px;
+  }
+
+  .img-column {
+    flex: 25%;
+    max-width: 25%;
+  }
+
+}

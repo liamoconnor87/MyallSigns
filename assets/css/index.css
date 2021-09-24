@@ -32,6 +32,11 @@ a{
 }
 
 /* INTRODUCTION */
+.yel-bg-graphic{
+  background: url('https://www.dropbox.com/s/urrj208felaf8j3/yellow-bg-img.png?raw=1') no-repeat center center fixed;
+  background-size: cover;
+}
+
 .intro{
   width: 100%;
   height: auto;
@@ -41,6 +46,7 @@ a{
 
 .intro h2{
   font-weight: 400;
+  padding: 0 5px;
 }
 
 .intro img{
@@ -59,12 +65,11 @@ a{
   flex-direction: column;
   width: 100%;
   text-align: center;
-  /*max-width: 1500px;*/
   margin: 0 auto;
 }
 
-.section-a-info h3{
-  font-weight: 400;
+.section-a-info h2{
+  font-weight: 200;
   text-decoration: underline;
   margin-bottom: 10px;
 }
@@ -73,7 +78,6 @@ a{
   padding: 0 15px;
   max-width: 600px;
   margin: 0 auto;
-  font-size: 12px;
 }
 
 /* INFO SECTION IMAGE STYLES */
@@ -86,7 +90,152 @@ a{
   height: auto;
 }
 
-.yel-bg-graphic{
-  background: url('https://www.dropbox.com/s/urrj208felaf8j3/yellow-bg-img.png?raw=1') no-repeat center center fixed;
-  background-size: cover;
+/* BESPOKE & COMERCIAL */
+.bespoke-banner{
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.bespoke-banner img{
+  width: 100%;
+  height: auto;
+}
+
+.bespoke-section h2{
+  font-weight: 200;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+.bespoke-section p{
+  padding: 0 15px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* BESPOKE CATEGORIES */
+.bes-cat-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1300px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.bes-category-row{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 700px;
+  text-align: center;
+}
+
+.bes-column{
+  width: 100%;
+  max-width: 500px;
+  margin: 10px auto 20px auto; 
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  text-align: center;
+}
+
+.fascia-img-desktop{
+  display: none;
+}
+
+.bes-column img{
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 90%;
+  transform: scale(1);
+  transform-style: preserve-3d;
+  transition: .4s;
+}
+
+.bes-column img:hover{
+  transform: scale(.95);
+}
+
+.bes-column h2{
+  margin-top: 15px;
+  font-weight: 200;
+}
+
+
+/* SMART DEVICES */
+@media screen and (min-width:  500px){
+
+  .bes-cat-container{
+    margin-bottom: 30px;
+  }
+
+  .bes-category-row{
+    flex-direction: row;
+  }
+
+  .bes-column{
+    width: 50%;
+  }
+
+}
+@media screen and (min-width:  898px){
+
+  .section-a{
+    flex-direction: row;
+  }
+
+  .section-a-info p, .bespoke-section p{
+    font-size: 15px;
+  }
+
+  .section-a-info,
+  .sect-a-img{
+    width: 49.999%;
+    margin: auto 0;
+  }
+
+  .bespoke-banner{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .bespoke-banner-img, .fascia-img-smrt{
+    display: none;
+  }
+
+  .fascia-img-desktop{
+    display: inline;
+  }
+
+}
+
+@media screen and (min-width:  1000px){
+
+  .section-a-info i, .bespoke-section i{
+    font-size: 53px;
+  }
+
+  .bes-cat-container{
+    flex-direction: row;
+  }
+
+  .bes-category-row{
+    width: 49.99%;
+  }
+
+}
+
+@media screen and (min-width:  1500px){
+
+  .section-a-info p{
+    font-size: 16px;
+  }
+
 }

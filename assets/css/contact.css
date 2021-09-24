@@ -11,3 +11,20 @@
 .chev-icon{
 	font-size: 35px;
 }
+
+/* SMART DEVICES  */
+@media screen and (min-width:  700px){
+
+  .map iframe{
+    height: 500px;
+  }
+
+}
+
+@media screen and (min-width:  1500px){
+
+  .map{
+    padding-top: 194px;
+  }
+
+}
