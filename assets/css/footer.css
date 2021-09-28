@@ -47,6 +47,10 @@ footer{
 	font-size: 65px;
 }
 
+.icon a:hover{
+	color: rgb(255, 205, 0);
+}
+
 /* CREATED BY WEBDEVLIAM */
 .created-by{
 	display: flex;
