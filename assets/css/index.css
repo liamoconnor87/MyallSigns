@@ -32,10 +32,6 @@ a{
 }
 
 /* INTRODUCTION */
-.yel-bg-graphic{
-  background: url('https://www.dropbox.com/s/urrj208felaf8j3/yellow-bg-img.png?raw=1') no-repeat center center fixed;
-  background-size: cover;
-}
 
 .intro{
   width: 100%;

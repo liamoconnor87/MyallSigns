@@ -37,3 +37,23 @@
 .black{
   color: rgb(0, 0, 0);
 }
+
+.yel-bg-graphic{
+  background: url('https://www.dropbox.com/s/urrj208felaf8j3/yellow-bg-img.png?raw=1') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.blue-bg-graphic{
+  background: url('https://www.dropbox.com/s/fp21vur8i3p5ama/blue-bg-img.png?raw=1') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.blue-bg-graphic-2{
+  background: url('https://www.dropbox.com/s/haf9so6gzkifhye/blue-bg-img_2.png?raw=1') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.wht-bg-graphic{
+  background: url('https://www.dropbox.com/s/jkhqgp2bgab2m73/white-bg-img.png?raw=1') no-repeat center center fixed;
+  background-size: cover;
+}

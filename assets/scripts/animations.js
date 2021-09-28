@@ -1,9 +1,13 @@
 $(document).ready(function(){
 
 	// CREATES A FADE IN LOAD EFFECT FOR WEB PAGES
-	$(".fade-in").fadeIn(250);
+	$(".fade-in").delay(1200).animate({
+        opacity: '1'
+    });
 
-	$(".fade-in-extd").fadeIn(600);
+	$(".fade-in-extd").delay(1400).animate({
+        opacity: '1'
+    });
 
 	// CREATES A FADE OUT EFFECT WHEN USER CLICKS A NAVIAGTION LINK
 	// INDEX PAGE
