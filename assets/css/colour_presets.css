@@ -43,6 +43,11 @@
   background-size: cover;
 }
 
+.yel-bg-graphic-2{
+  background: url('https://www.dropbox.com/s/hcf0cvy7ynpss38/yellow-bg-img_2.png?raw=1') no-repeat center center fixed;
+  background-size: cover;
+}
+
 .blue-bg-graphic{
   background: url('https://www.dropbox.com/s/fp21vur8i3p5ama/blue-bg-img.png?raw=1') no-repeat center center fixed;
   background-size: cover;
@@ -55,6 +60,11 @@
 
 .blue-bg-graphic-3{
   background: url('https://www.dropbox.com/s/zuhmzgcrhmwbll7/blue-bg-img_3.png?raw=1') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.blue-bg-graphic-4{
+  background: url('https://www.dropbox.com/s/5ljg5vl93wgmyfw/blue-bg-img_4.png?raw=1') no-repeat center center fixed;
   background-size: cover;
 }
 

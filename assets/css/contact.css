@@ -4,6 +4,11 @@
 	flex-direction: column;
 }
 
+.map iframe{
+	height: calc(100vh - 291px);
+	width: 100%;
+}
+
 .say-hello{
 	text-align: center;
 }
@@ -13,18 +18,14 @@
 }
 
 /* SMART DEVICES  */
-@media screen and (min-width:  700px){
-
-  .map iframe{
-    height: 500px;
-  }
-
-}
-
 @media screen and (min-width:  1500px){
 
   .map{
     padding-top: 194px;
   }
+
+  .map iframe{
+		height: calc(100vh - 331px);
+	}
 
 }

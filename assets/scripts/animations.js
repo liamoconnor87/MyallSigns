@@ -56,4 +56,64 @@ $(document).ready(function(){
 
     });
 
+    $(".gallery-page-fascia").click(function(){
+
+        $(".fade-in").fadeOut(250);
+
+        setTimeout(pageFadeOut, 251);
+
+        // FUNCTION LOADS GALLERY HTML
+        function pageFadeOut() {
+
+            window.location.href = "gallery.html#fascia";
+              
+        }
+
+    });
+
+    $(".gallery-page-vehicle").click(function(){
+
+        $(".fade-in").fadeOut(250);
+
+        setTimeout(pageFadeOut, 251);
+
+        // FUNCTION LOADS GALLERY HTML
+        function pageFadeOut() {
+
+            window.location.href = "gallery.html#vehicle";
+              
+        }
+
+    });
+
+    $(".gallery-page-vinyl").click(function(){
+
+        $(".fade-in").fadeOut(250);
+
+        setTimeout(pageFadeOut, 251);
+
+        // FUNCTION LOADS GALLERY HTML
+        function pageFadeOut() {
+
+            window.location.href = "gallery.html#vinyl";
+              
+        }
+
+    });
+
+    $(".gallery-page-lettering").click(function(){
+
+        $(".fade-in").fadeOut(250);
+
+        setTimeout(pageFadeOut, 251);
+
+        // FUNCTION LOADS GALLERY HTML
+        function pageFadeOut() {
+
+            window.location.href = "gallery.html#lettering";
+              
+        }
+
+    });
+
 });
