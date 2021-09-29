@@ -55,7 +55,7 @@ a{
   padding: 0 10px;
 }
 
-/* INFO SECTION STYLES */
+/* TRADITIONAL INFO SECTION STYLES */
 .section-a{
   display: flex;
   flex-direction: column;
@@ -74,6 +74,16 @@ a{
   padding: 0 15px;
   max-width: 600px;
   margin: 0 auto;
+}
+
+.section-a-info p a{
+  color: rgb(255, 255, 0);
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.section-a-info p a:hover{
+  color: rgb(255, 255, 255);
 }
 
 /* INFO SECTION IMAGE STYLES */
@@ -175,23 +185,44 @@ a{
   font-weight: 200;
 }
 
-.web-dev-link{
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-}
-
-.web-dev-link:hover{
-  text-decoration: underline;
-}
-
 .many-more{
   width: 100%;
   height: auto;
   text-align: center;
 }
 
+/* WEB DEV LIAM LINK */
+.web-dev-section{
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: auto;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding: 15px 0;
+  font-size: 14px;
+}
+
+.web-dev-section p i{
+  font-size: 70px;
+}
+
+.web-dev-link{
+  text-decoration: none;
+  color: rgb(248, 247, 2);
+}
+
+.web-dev-link:hover{
+  text-decoration: underline;
+}
 
 /* SMART DEVICES */
+@media screen and (min-width:  400px){
+
+  .web-dev-section{
+    font-size: 18px;
+  }
+
+}
 @media screen and (min-width:  500px){
 
   .bes-cat-container{

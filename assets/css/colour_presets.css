@@ -53,6 +53,11 @@
   background-size: cover;
 }
 
+.blue-bg-graphic-3{
+  background: url('https://www.dropbox.com/s/zuhmzgcrhmwbll7/blue-bg-img_3.png?raw=1') no-repeat center center fixed;
+  background-size: cover;
+}
+
 .wht-bg-graphic{
   background: url('https://www.dropbox.com/s/jkhqgp2bgab2m73/white-bg-img.png?raw=1') no-repeat center center fixed;
   background-size: cover;
