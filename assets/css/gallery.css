@@ -6,6 +6,10 @@
   text-align: center;
 }
 
+.gallery-container h1{
+  font-size: 19px;
+}
+
 /* TRADITIONAL GALLERY */
 .traditional-container{
   display: flex;
