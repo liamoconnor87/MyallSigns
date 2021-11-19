@@ -143,7 +143,7 @@
   }
 
   .vehicle-container{
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .vehicle-row{
@@ -156,7 +156,7 @@
   }
 
   .vehicle-column img{
-    width: 33.333%;
+    width: 50%;
   }
 
   .lettering-container{
